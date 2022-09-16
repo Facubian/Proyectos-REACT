@@ -1,0 +1,87 @@
+body{
+    background-image: url(matematicas-recurso-bbva.jpg);
+    height: 100%;
+    width: 100vw;
+    padding-bottom: 8rem;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;    
+}
+
+.navbar{
+    background: #373B44;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4286f4, #373B44);
+}
+
+#calculadora{
+    margin-top: 20px;
+    border-radius: 10px;
+    outline-color:black;
+    outline-style: solid;
+    margin-bottom: 184px;
+}
+
+#calcu_parte_arriba{
+    background-color: black;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-radius: 10px 10px 0 0 ;
+    align-items: center;
+}
+
+#calcu_pantalla{
+    background-color: darkolivegreen;
+    font-size: large;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    width: 90%;
+}
+
+#calcu_parte_abajo{
+    background: #373B44;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.operador{
+    color: white;
+    background-color: black;
+    font-size: large;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border-radius: 15px;
+    box-shadow:2px 2px 5px gray;
+    text-align: center;
+}
+
+.igual{
+    color: white;
+    background-color:cornflowerblue;
+    font-size: large;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border-radius: 15px;
+    text-align: center;
+    
+}
+
+/*MEDIAS QUERY*/
+@media only screen and (min-width: 480px) and (max-width: 960px){
+    #calculadora{
+        width: 60%;
+    }
+}
+
+@media only screen and (min-width: 961px) and (max-width: 1200px){
+    #calculadora{
+        width: 55%;
+    }    
+}
+@media only screen and (min-width: 1201px){
+    #calculadora{
+        width: 50%;
+    }    
+}
